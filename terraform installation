@@ -1,0 +1,17 @@
+sudo apt-get install unzip
+sudo wget https://releases.hashicorp.com/terraform/0.12.2/terraform_0.12.2_linux_amd64.zip
+sudo unzip terraform_0.12.2_linux_amd64.zip 
+sudo mv terraform /usr/local/bin/
+terraform --version
+sudo apt-get update
+sudo apt-get install python pip
+pip install awscli
+sudo apt install python-pip
+pip install awscli
+aws version
+aws configure
+sudo apt install awscli
+aws -version
+aws --version
+aws s3 ls
+aws ec2 ls
